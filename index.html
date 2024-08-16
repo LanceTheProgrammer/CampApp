@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>8/25-8/27 Ohanapecosh Camping Checklist</h1>
+
+        <button id="uncheck-all">Uncheck All</button>
+
+        <div class="category">
+            <h2>Food Tools</h2>
+            <ul id="food-tools">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="food-tools-input" placeholder="Add new item">
+            <button class="add-item" data-target="food-tools">Add Item</button>
+        </div>
+
+        <div class="category">
+            <h2>Day 1 (8/25)</h2>
+            <ul id="day-1">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="day-1-input" placeholder="Add new item">
+            <button class="add-item" data-target="day-1">Add Item</button>
+        </div>
+
+        <div class="category">
+            <h2>Day 2 (8/26)</h2>
+            <ul id="day-2">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="day-2-input" placeholder="Add new item">
+            <button class="add-item" data-target="day-2">Add Item</button>
+        </div>
+
+        <div class="category">
+            <h2>Day 3 (8/27)</h2>
+            <ul id="day-3">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="day-3-input" placeholder="Add new item">
+            <button class="add-item" data-target="day-3">Add Item</button>
+        </div>
+
+        <div class="category">
+            <h2>Equipment</h2>
+            <ul id="equipment">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="equipment-input" placeholder="Add new item">
+            <button class="add-item" data-target="equipment">Add Item</button>
+        </div>
+
+        <div class="category">
+            <h2>Notes</h2>
+            <ul id="notes">
+                <!-- Existing items will be dynamically loaded here -->
+            </ul>
+            <input type="text" id="notes-input" placeholder="Add new item">
+            <button class="add-item" data-target="notes">Add Item</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
